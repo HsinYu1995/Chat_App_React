@@ -10,7 +10,6 @@
 .container-fluid {
   text-align: center;
   vertical-align: middle;
-  
 }
 body {
   background-color: black;
@@ -20,42 +19,34 @@ body {
 }
 .chat-frame {
   margin: auto;
-  width:650px;
-  height:550px;
+  width: 650px;
+  height: 550px;
   background-color: white;
   text-align: center;
   align-items: center;
   display: grid;
   border: 2px solid purple;
-  
-  
-  
 }
 .message {
-  list-style-type: none; 
-  text-align: left; 
+  list-style-type: none;
+  text-align: left;
 }
 .col-sm-9 {
-  height:350px;
+  height: 350px;
   border: 1px solid black;
   margin: auto;
   overflow: auto;
 }
-/* .col-sm-2 {
-  border: 1px solid black;
-} */
 .userList {
   list-style-type: none;
   text-align: left;
 }
 .btn {
   border-color: blue;
-  
 }
 .loginButton {
   width: 100px;
-  height:50px;
-  
+  height: 50px;
 }
 .inputMessage {
   width: 450px;
@@ -74,19 +65,18 @@ body {
   border-radius: 10px;
   text-align: left;
   float: right;
-  clear:both;
-  word-wrap:break-word;
+  clear: both;
+  word-wrap: break-word;
   max-width: 175px;
-  
 }
 .other {
   margin-bottom: 5px;
   background-color: #00ffff;
   border-radius: 5px;
   float: left;
-  clear:both;
+  clear: both;
   text-align: left;
-  word-wrap: break-word;;
+  word-wrap: break-word;
   max-width: 175px;
 }
 .userOwn {
@@ -107,7 +97,6 @@ body {
 .roomList {
   list-style-type: none;
   padding-bottom: 5px;
-  
 }
 .roomLi {
   margin-bottom: 5px;
@@ -116,14 +105,13 @@ body {
   padding-left: 30%;
 }
 .form-row {
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
- 
+
 .registerLabel {
   float: left;
   text-align: left;
   font-size: large;
-  
 }
 .star {
   color: red;
@@ -135,14 +123,13 @@ body {
   background-color: green;
   border-color: green;
   border-radius: 5px;
-  color:white;
-  width:100px;
+  color: white;
+  width: 100px;
   height: 40px;
 }
 .backButton {
   top: 5px;
 }
-
 
 label {
   text-align: center;
@@ -152,41 +139,27 @@ Button {
 }
 
 #sendMessagePart {
-  text-align:left;
-  
-
+  text-align: left;
 }
 #sendDiv {
-  
   margin-top: 10px;
   margin-bottom: 10px;
 
-  align-items:right;
-  
+  align-items: right;
 }
 #messageDiv {
   margin-top: 10px;
-
-  
 }
 #messageAndButton {
-
-  align-items:right;
+  align-items: right;
 }
 #userListOutfit {
-  border:1px solid black;
+  border: 1px solid black;
 }
 #listFrame {
-  border:1px solid black;
+  border: 1px solid black;
   left: 3%;
-  
 }
-
-
-
-
-
-
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -217,4 +190,4 @@ Button {
     transform: rotate(360deg);
   }
 }
-@import'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css';
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css";
