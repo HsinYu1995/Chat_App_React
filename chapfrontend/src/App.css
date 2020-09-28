@@ -1,0 +1,220 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.container-fluid {
+  text-align: center;
+  vertical-align: middle;
+  
+}
+body {
+  background-color: black;
+  text-align: center;
+  display: grid;
+  align-items: center;
+}
+.chat-frame {
+  margin: auto;
+  width:650px;
+  height:550px;
+  background-color: white;
+  text-align: center;
+  align-items: center;
+  display: grid;
+  border: 2px solid purple;
+  
+  
+  
+}
+.message {
+  list-style-type: none; 
+  text-align: left; 
+}
+.col-sm-9 {
+  height:350px;
+  border: 1px solid black;
+  margin: auto;
+  overflow: auto;
+}
+/* .col-sm-2 {
+  border: 1px solid black;
+} */
+.userList {
+  list-style-type: none;
+  text-align: left;
+}
+.btn {
+  border-color: blue;
+  
+}
+.loginButton {
+  width: 100px;
+  height:50px;
+  
+}
+.inputMessage {
+  width: 450px;
+  height: 50px;
+}
+.messageDiv {
+  height: 500px;
+}
+.createNewRoom {
+  width: 100px;
+  bottom: 10px;
+}
+.own {
+  margin-bottom: 5px;
+  background-color: #7cfc00;
+  border-radius: 10px;
+  text-align: left;
+  float: right;
+  clear:both;
+  word-wrap:break-word;
+  max-width: 175px;
+  
+}
+.other {
+  margin-bottom: 5px;
+  background-color: #00ffff;
+  border-radius: 5px;
+  float: left;
+  clear:both;
+  text-align: left;
+  word-wrap: break-word;;
+  max-width: 175px;
+}
+.userOwn {
+  font-size: 10px;
+  float: right;
+  max-width: 175px;
+}
+.userOther {
+  float: left;
+  font-size: 10px;
+  max-width: 175px;
+}
+.test {
+  text-align: left;
+  max-width: 175px;
+  word-wrap: break-word;
+}
+.roomList {
+  list-style-type: none;
+  padding-bottom: 5px;
+  
+}
+.roomLi {
+  margin-bottom: 5px;
+}
+.usc {
+  padding-left: 30%;
+}
+.form-row {
+  margin-bottom:10px;
+}
+ 
+.registerLabel {
+  float: left;
+  text-align: left;
+  font-size: large;
+  
+}
+.star {
+  color: red;
+}
+.title {
+  font-size: 35px;
+}
+.registerButton {
+  background-color: green;
+  border-color: green;
+  border-radius: 5px;
+  color:white;
+  width:100px;
+  height: 40px;
+}
+.backButton {
+  top: 5px;
+}
+
+
+label {
+  text-align: center;
+}
+Button {
+  width: 100px;
+}
+
+#sendMessagePart {
+  text-align:left;
+  
+
+}
+#sendDiv {
+  
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  align-items:right;
+  
+}
+#messageDiv {
+  margin-top: 10px;
+
+  
+}
+#messageAndButton {
+
+  align-items:right;
+}
+#userListOutfit {
+  border:1px solid black;
+}
+#listFrame {
+  border:1px solid black;
+  left: 3%;
+  
+}
+
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@import'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css';
