@@ -31,7 +31,7 @@ app.use((req, res, next) => {
 });
 
 mongoose.connect(process.env.MONGO_DB, { newUser: true }, () => {
-  console.log("Connected to DB!");
+  console.log("Connected to DB!!");
 });
 app.post("/register", async (req, res) => {
   const hashedPassword = await bcrypt.hash(req.body.password, 10); // need to awiat for bcrypt to hash
